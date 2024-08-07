@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<title>redBus</title>
+</head>
+<body>
+	<nav class="navbar navbar-expand-sm bg-danger navbar-dark fixed-top">
+		<div class="container">
+			<a class="navbar-brand" href="#"><img src="https://i.postimg.cc/zXFNsGkg/redbus-white.png" alt="redBus" width="60" height="auto"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu-nav">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="menu-nav">
+				<ul class="navbar-nav">
+					<li class="nav-item"><a class="nav-link text-white text-uppercase" href="#">Bus Tickets</a></li>
+					<li class="nav-item"><a class="nav-link text-white text-uppercase" href="#">Hotels</a></li>
+					<li class="nav-item"><a class="nav-link text-white text-uppercase" href="#">Bus Hire</a></li>
+					<li class="nav-item"><a class="nav-link text-white text-uppercase" href="#">Pilgrimages</a></li>
+				</ul>
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item"><a class="nav-link text-white" href="#">Help</a></li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle text-white" href="#" data-toggle="dropdown">Manage Booking</a>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="#">Link 1</a>
+							<a class="dropdown-item" href="#">Link 2</a>
+							<a class="dropdown-item" href="#">Link 3</a>
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle text-white" href="#" data-toggle="dropdown"><i class="fas fa-user-circle"></i></a>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="#">Sign In/Sign Up</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="position-relative">
+		<div class="home-banner"></div>
+		<div class="input-search-container">
+			<form class="d-flex justify-content-center">
+				<div class="input-group mx-2">
+					<span class="input-group-text"><i class="far fa-building"></i></span>
+					<input class="form-control" type="text" placeholder="FROM" aria-label="From">
+				</div>
+				<div class="input-group mx-2">
+					<span class="input-group-text"><i class="far fa-building"></i></span>
+					<input class="form-control" type="text" placeholder="TO" aria-label="To">
+				</div>
+				<div class="input-group mx-2">
+					<span class="input-group-text"><i class="fas fa-calendar-alt"></i></span>
+					<input class="form-control" type="date" placeholder="ONWARD DATE" aria-label="Onward Date">
+				</div>
+				<div class="input-group mx-2">
+					<span class="input-group-text"><i class="fas fa-calendar-alt"></i></span>
+					<input class="form-control" type="date" placeholder="RETURN DATE" aria-label="Return Date">
+				</div>
+				<button class="btn btn-danger" type="submit">Search Buses</button>
+			</form>
+		</div>
+	</div>
+
+	<div class="cashback-container d-flex justify-content-center bg-light mb-5 pb-5 pt-5">
+		<div class="text-center bg-white shadow m-3 p-2 pl-5 pr-5 mt-5">
+			<div class="text-muted font-weight-bold small">Travel on RTC and Save up to Rs 175</div>
+			<img src="https://i.postimg.cc/kG8J6N81/bus.png" alt="bus" width="80">
+			<div class="text-muted small">Pay using Amazon Pay</div>
+			<div class="font-weight-normal">Use code : AABBC</div>
+		</div>
+		<div class="text-center bg-white shadow m-3 p-2 pl-5 pr-5 mt-5">
+			<div class="text-muted font-weight-bold small">Cashback up to Rs 275 on bus tickets.</div>
+			<img src="https://i.postimg.cc/kg7JGb5s/holiday-cashback.png" alt="holiday cashback" width="80">
+			<div class="text-muted small">Limited Period Offer</div>
+			<div class="font-weight-normal">Use code : CCDDEE</div>
+		</div>
+		<div class="text-center bg-white shadow m-3 p-2 pl-5 pr-5 mt-5">
+			<div class="text-muted font-weight-bold small">Cashback up to Rs 275 on bus tickets.</div>
+			<img src="https://i.postimg.cc/d1htvc0K/amazon.png" alt="bus" width="80">
+			<div class="text-muted small">Pay using Amazon Pay</div>
+			<div class="font-weight-normal">Limited Period Offer</div>
+		</div>
+	</div>
+
+	<div class="on-time-guarantee">
+        <div class="pr-4">
+            <img src="hero-ontime.png" alt="On-Time Guarantee" class="on-time-image">
+        </div>
+        <div>
+            <h2>Introducing On-Time Guarantee</h2>
+            <h4 class="text-muted font-weight-normal">Leave on time, every time</h4>
+            <div class="d-flex">
+                <p class="font-weight-light mr-3">
+                    <span><img src="https://i.postimg.cc/Z5Ym4zfD/tip-icon.png" height="23"></span>
+                    Look for buses with
+                </p>
+                <p class="mr-3"><img src="https://i.postimg.cc/fyxsTzn1/otgText.png"></p>
+                <p class="font-weight-light mr-3">tag while booking your journey</p>
+            </div>
+            <div class="d-flex">
+                <div>
+                    <h5 class="text-primary">Bus on time</h5>
+                    <div class="font-weight-bold">Get 25% refund</div>
+                    <div class="text-muted">If bus departure is delayed by 30 mins from boarding point.</div>
+                </div>
+                <div>
+                    <h5 class="text-primary">No bus cancellation</h5>
+                    <div class="font-weight-bold">Get 150% refund</div>
+                    <div class="text-muted">Bus is cancelled without an alternate arrangement.</div>
+                </div>
+                <div>
+                    <h5 class="text-primary">Alternate assurance</h5>
+                    <div class="font-weight-bold">Get 300% refund</div>
+                    <div class="text-muted">Bus breaks down with no alternate arrangement within 6 hours.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+	<div class="m-5 pl-5">
+		<iframe src="https://www.youtube.com/embed/x5EQNUsYNUM" width="375" height="198" allowfullscreen></iframe>
+	</div>
+
+	<div class="track-my-bus bg-light p-4 mb-5 pb-5">
+		<div class="mb-5">
+			<img src="https://i.postimg.cc/mkGxnvzj/tmb-img.png" alt="tmb_img" class="float-left mr-5" width="100">
+			<div class="d-table-cell align-middle pl-5 pr-5">
+				<h3>TRACK MY BUS - Smarter Way To Travel</h3>
+				<div class="font-weight-light text-muted">Track your bus on the go with our real-time tracking feature.</div>
+				<button class="btn btn-danger">TRACK NOW</button>
+			</div>
+		</div>
+	</div>
+
+	<div class="ios-android-container bg-light p-4 mb-5">
+		<h3>Convenience On-The-Go</h3>
+		<div class="d-flex flex-column flex-md-row">
+			<div class="d-flex flex-column justify-content-center align-items-center">
+				<img src="https://i.postimg.cc/QNpk85dH/download-app.png" alt="download-app" width="200" class="mb-3">
+				<button class="btn btn-danger">Download App</button>
+			</div>
+			<div class="d-flex flex-column justify-content-center align-items-center">
+				<img src="https://i.postimg.cc/JnH6c9jw/download-app.png" alt="download-app" width="200" class="mb-3">
+				<button class="btn btn-danger">Download App</button>
+			</div>
+		</div>
+	</div>
+
+	<div class="we-promise-container">
+		<div class="d-flex justify-content-center">
+			<div class="text-center">
+				<h5 class="font-weight-bold">We Promise To Deliver</h5>
+				<div class="text-muted">We promise you the best service.</div>
+			</div>
+		</div>
+	</div>
+    <div class="we-promise-container bg-light p-3 pb-5">
+		<div class="text-center m-4">
+			<img src="https://i.postimg.cc/QN5hqb9S/promise.png" alt="promise" width="85">
+			<h2 class="text-dark m-2">WE PROMISE TO DELIVER</h2>
+		</div>
+
+		<div class="text-center d-flex">
+			<div class="border bg-white w-25">
+				<div class="p-4"><img src="https://i.postimg.cc/wMKHptPh/maximum-choices.png" alt="maximum_choices" width="120"></div>
+				<div class="mb-5 m-4 font-weight-light lead">MAXIMUM CHOICE</div>
+				<div class="m-4 p-1 text-muted">We give you the widest number of travel options across thousands of routes.</div>
+			</div>
+
+			<div class="border bg-white w-25">
+				<div class="p-4"><img src="https://i.postimg.cc/Y2mqs7V6/customer-care.png" alt="customer_care" width="91"></div>
+				<div class="mb-5 mt-4 font-weight-light lead">SUPERIOR CUSTOMER SERVICE</div>
+				<div class="m-4 p-1 text-muted">We put our experience and relationships to good use and are available to solve your travel issues.</div>
+			</div>
+
+			<div class="border bg-white w-25">
+				<div class="p-4"><img src="https://i.postimg.cc/JnHmv3Tr/lowest-Fare.png" alt="lowest_Fare" width="120"></div>
+				<div class="mb-5 mt-4 font-weight-light lead">LOWEST PRICES</div>
+				<div class="m-4 p-1 text-muted">We always give you the lowest price with the best partner offers.</div>
+			</div>
+
+			<div class="border bg-white w-25">
+				<div class="p-4"><img src="https://i.postimg.cc/k4LMgYVR/benefits.png" alt="benefits" width="120"></div>
+				<div class="mb-5 mt-4 font-weight-light lead">UNMATCHED BENEFITS</div>
+				<div class="m-4 p-1 text-muted">We take care of your travel beyond ticketing by providing you with innovative and unique benefits.</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

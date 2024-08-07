@@ -1,0 +1,121 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin-top: 63px;
+}
+
+/* Main Home Banner and Input Search Container */
+.home-banner {
+	background-image: url(https://i.postimg.cc/XNw65Ymz/home-banner.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 450px;
+	position: relative;
+}
+
+/* Input Search Container */
+.input-search-container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 90%; /* Adjust width for responsiveness */
+	max-width: 900px; /* Max width for larger screens */
+}
+
+.input-group {
+	width: auto; /* Make the input group flexible */
+}
+
+.input-group-text {
+	background-color: #ffffff;
+	border: 1px solid #ccc;
+}
+
+.form-control {
+	height: 40px;
+}
+
+/* Style for focused input */
+.input-group input:focus {
+	border: 2px solid #219ebc; /* Change border color on focus */
+	outline: none; /* Remove default outline */
+}
+
+/* Coupons Container */
+.holiday-coupon-container {
+	width: 540px;
+	margin: -4em auto 2em;
+	padding: 1em;
+	text-align: center;
+	border-radius: 5px;
+	background-color: #f8f9fa;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Cashback Container */
+.cashback-container {
+	display: flex;
+	justify-content: center; /* Center the items */
+	flex-wrap: wrap; /* Wrap items on smaller screens */
+	padding: 2em 0; /* Add padding */
+}
+
+.cashback-container > div {
+	transition: transform .2s;
+	margin: 1em; /* Add margin for spacing */
+}
+
+.cashback-container > div:hover {
+	transform: scale(1.05);
+}
+
+.cashback-container img {
+	width: 80px; /* Uniform size for images */
+}
+
+/* On-Time Guarantee and Track My Bus Container */
+.on-time-guarantee,
+.track-my-bus,
+.ios-android-container {
+	max-width: 1200px;
+	margin: 2em auto; /* Center and add margin */
+	padding: 2em;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	background-color: #f8f9fa;
+}
+
+/* Track My Bus Specific Styles */
+.track-my-bus {
+	display: flex; /* Use flex for alignment */
+	align-items: center; /* Center items vertically */
+	padding: 2em;
+}
+
+.track-my-bus img {
+	width: 100px; /* Adjusted image size */
+	margin-right: 20px; /* Spacing between image and text */
+}
+
+/* Convenience On-The-Go IOS/Android Container */
+.ios-android-container {
+	text-align: center; /* Center the text */
+	padding: 2em 0; /* Add vertical padding */
+}
+
+.ios-android-container img {
+	width: 200px; /* Uniform size for images */
+}
+
+/* We Promise Container */
+.we-promise-container {
+	background-color: #ffffff;
+	padding: 2em;
+	margin: 2em auto; /* Center and add margin */
+	text-align: center;
+	border-radius: 5px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
